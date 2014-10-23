@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+  <data noupdate="1">
+    <record id="F104_104" model="account.tax.code.template">
+      <field name="code">104</field>
+      <field name="name">DECLARACIÓN DEL IMPUESTO AL VALOR AGREGADO</field>
+      <field name="parent_id" ref="vat_code_tax"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_409" model="account.tax.code.template">
+      <field name="code">409</field>
+      <field name="name">TOTAL VENTAS Y OTRAS OPERACIONES – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_419" model="account.tax.code.template">
+      <field name="code">419</field>
+      <field name="name">TOTAL VENTAS Y OTRAS OPERACIONES – VALOR NETO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_553" model="account.tax.code.template">
+      <field name="code">553</field>
+      <field name="name">FACTOR DE PROPORCIONALIDAD PARA CRÉDITO TRIBUTARIO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_902" model="account.tax.code.template">
+      <field name="code">902</field>
+      <field name="name">TOTAL IMPUESTO A PAGAR</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_903" model="account.tax.code.template">
+      <field name="code">903</field>
+      <field name="name">INTERÉS POR MORA</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_904" model="account.tax.code.template">
+      <field name="code">904</field>
+      <field name="name">MULTA</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_543" model="account.tax.code.template">
+      <field name="code">543</field>
+      <field name="name">NOTAS DE CRÉDITO TARIFA 12% POR COMPENSAR PRÓXIMO MES (INFORMATIVO) – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_544" model="account.tax.code.template">
+      <field name="code">544</field>
+      <field name="name">PAGOS NETOS POR REEMBOLSO COMO INTERMEDIARIO (INFORMATIVO) – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_615" model="account.tax.code.template">
+      <field name="code">615</field>
+      <field name="name">SALDO CRÉDITO TRIBUTARIO PARA EL PRÓXIMO MES POR ADQUISICIONES E IMPORTACIONES</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_617" model="account.tax.code.template">
+      <field name="code">617</field>
+      <field name="name">SALDO CRÉDITO TRIBUTARIO PARA EL PRÓXIMO MES POR RETENCIONES EN LA FUENTE DE IVA QUE LE HAN SIDO EFECTUADAS</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_401" model="account.tax.code.template">
+      <field name="code">401</field>
+      <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 12% – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_409"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_402" model="account.tax.code.template">
+      <field name="code">402</field>
+      <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12% – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_409"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_403" model="account.tax.code.template">
+      <field name="code">403</field>
+      <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_409"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_404" model="account.tax.code.template">
+      <field name="code">404</field>
+      <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_409"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_405" model="account.tax.code.template">
+      <field name="code">405</field>
+      <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_409"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_406" model="account.tax.code.template">
+      <field name="code">406</field>
+      <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_409"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_407" model="account.tax.code.template">
+      <field name="code">407</field>
+      <field name="name">EXPORTACIONES DE BIENES – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_409"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_408" model="account.tax.code.template">
+      <field name="code">408</field>
+      <field name="name">EXPORTACIONES DE SERVICIOS – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_409"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_411" model="account.tax.code.template">
+      <field name="code">411</field>
+      <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 12% – VALOR NETO</field>
+      <field name="parent_id" ref="F104_419"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_412" model="account.tax.code.template">
+      <field name="code">412</field>
+      <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12% – VALOR NETO</field>
+      <field name="parent_id" ref="F104_419"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_413" model="account.tax.code.template">
+      <field name="code">413</field>
+      <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO – VALOR NETO</field>
+      <field name="parent_id" ref="F104_419"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_414" model="account.tax.code.template">
+      <field name="code">414</field>
+      <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO – VALOR NETO</field>
+      <field name="parent_id" ref="F104_419"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_415" model="account.tax.code.template">
+      <field name="code">415</field>
+      <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO – VALOR NETO</field>
+      <field name="parent_id" ref="F104_419"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_416" model="account.tax.code.template">
+      <field name="code">416</field>
+      <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO – VALOR NETO</field>
+      <field name="parent_id" ref="F104_419"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_417" model="account.tax.code.template">
+      <field name="code">417</field>
+      <field name="name">EXPORTACIONES DE BIENES – VALOR NETO</field>
+      <field name="parent_id" ref="F104_419"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_418" model="account.tax.code.template">
+      <field name="code">418</field>
+      <field name="name">EXPORTACIONES DE SERVICIOS – VALOR NETO</field>
+      <field name="parent_id" ref="F104_419"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_485" model="account.tax.code.template">
+      <field name="code">485</field>
+      <field name="name">IMPUESTO A LIQUIDAR EN EL PRÓXIMO MES</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_482" model="account.tax.code.template">
+      <field name="code">482</field>
+      <field name="name">TOTAL IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_485"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_429" model="account.tax.code.template">
+      <field name="code">429</field>
+      <field name="name">TOTAL VENTAS Y OTRAS OPERACIONES – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_482"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_421" model="account.tax.code.template">
+      <field name="code">421</field>
+      <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 12% – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_429"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_422" model="account.tax.code.template">
+      <field name="code">422</field>
+      <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12% – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_429"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_859" model="account.tax.code.template">
+      <field name="code">859</field>
+      <field name="name">TOTAL CONSOLIDADO DE IMPUESTO AL VALOR AGREGADO</field>
+      <field name="parent_id" ref="F104_902"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_699" model="account.tax.code.template">
+      <field name="code">699</field>
+      <field name="name">TOTAL IMPUESTO A PAGAR POR PERCEPCION</field>
+      <field name="parent_id" ref="F104_859"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_799" model="account.tax.code.template">
+      <field name="code">799</field>
+      <field name="name">TOTAL IMPUESTO A PAGAR POR RETENCIÓN</field>
+      <field name="parent_id" ref="F104_859"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_619" model="account.tax.code.template">
+      <field name="code">619</field>
+      <field name="name">SUBTOTAL A PAGAR</field>
+      <field name="parent_id" ref="F104_699"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_601" model="account.tax.code.template">
+      <field name="code">601</field>
+      <field name="name">IMPUESTO CAUSADO (Si diferencia campo 499-554 es mayor que cero)</field>
+      <field name="parent_id" ref="F104_619"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_554" model="account.tax.code.template">
+      <field name="code">554</field>
+      <field name="name">CRÉDITO TRIBUTARIO APLICABLE EN ESTE PERÍODO</field>
+      <field name="parent_id" ref="F104_601"/>
+      <field name="sign">-1</field>
+    </record>
+    <record id="F104_602" model="account.tax.code.template">
+      <field name="code">602</field>
+      <field name="name">CRÉDITO TRIBUTARIO APLICABLE EN ESTE PERÍODO (Si diferencia campo 499-554 es menor que cero)</field>
+      <field name="parent_id" ref="F104_619"/>
+      <field name="sign">-1</field>
+    </record>
+    <record id="F104_605" model="account.tax.code.template">
+      <field name="code">605</field>
+      <field name="name">(-) SALDO CRÉDITO TRIBUTARIO DEL MES ANTERIOR POR ADQUISICIONES E IMPORTACIONES (Traslada el campo 615 de la declaración del período anterior)</field>
+      <field name="parent_id" ref="F104_619"/>
+      <field name="sign">-1</field>
+    </record>
+    <record id="F104_607" model="account.tax.code.template">
+      <field name="code">607</field>
+      <field name="name">(-) SALDO CRÉDITO TRIBUTARIO DEL MES ANTERIOR POR RETENCIONES EN LA FUENTE DE IVA QUE LE HAN SIDO EFECTUADAS (Traslada el campo 617 de la declaración del período anterior)</field>
+      <field name="parent_id" ref="F104_619"/>
+      <field name="sign">-1</field>
+    </record>
+    <record id="F104_609" model="account.tax.code.template">
+      <field name="code">609</field>
+      <field name="name">(- )RETENCIONES EN LA FUENTE DE IVA QUE LE HAN SIDO EFECTUADAS EN ESTE PERÍODO</field>
+      <field name="parent_id" ref="F104_619"/>
+      <field name="sign">-1</field>
+    </record>
+    <record id="F104_611" model="account.tax.code.template">
+      <field name="code">611</field>
+      <field name="name">(+) AJUSTE POR IVA DEVUELTO E IVA RECHAZADO IMPUTABLE AL CRÉDITO TRIBUTARIO EN EL MES</field>
+      <field name="parent_id" ref="F104_619"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_613" model="account.tax.code.template">
+      <field name="code">613</field>
+      <field name="name">(+) AJUSTE POR IVA DEVUELTO POR OTRAS INSTITUCIONES DEL SECTOR PÚBLICO IMPUTABLE AL CRÉDITO TRIBUTARIO EN EL MES</field>
+      <field name="parent_id" ref="F104_619"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_621" model="account.tax.code.template">
+      <field name="code">621</field>
+      <field name="name">IVA PRESUNTIVO DE SALAS DE JUEGO (BINGO MECÁNICOS) Y OTROS JUEGOS DE AZAR</field>
+      <field name="parent_id" ref="F104_699"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_721" model="account.tax.code.template">
+      <field name="code">721</field>
+      <field name="name">RETENCIÓN DEL 30%</field>
+      <field name="parent_id" ref="F104_799"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_723" model="account.tax.code.template">
+      <field name="code">723</field>
+      <field name="name">RETENCIÓN DEL 70%</field>
+      <field name="parent_id" ref="F104_799"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_725" model="account.tax.code.template">
+      <field name="code">725</field>
+      <field name="name">RETENCIÓN DEL 100%</field>
+      <field name="parent_id" ref="F104_799"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_441" model="account.tax.code.template">
+      <field name="code">441</field>
+      <field name="name">TRANSFERENCIAS NO OBJETO O EXENTAS DE IVA</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_442" model="account.tax.code.template">
+      <field name="code">442</field>
+      <field name="name">NOTAS DE CRÉDITO TARIFA 0% POR COMPENSAR PRÓXIMO MES (INFORMATIVO)</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_443" model="account.tax.code.template">
+      <field name="code">443</field>
+      <field name="name">NOTAS DE CRÉDITO TARIFA 12% POR COMPENSAR PRÓXIMO MES (INFORMATIVO)</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_444" model="account.tax.code.template">
+      <field name="code">444</field>
+      <field name="name">INGRESOS POR REEMBOLSO COMO INTERMEDIARIO (INFORMATIVO) - VALOR NETO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_453" model="account.tax.code.template">
+      <field name="code">453</field>
+      <field name="name">NOTAS DE CRÉDITO TARIFA 12% POR COMPENSAR PRÓXIMO MES (INFORMATIVO) – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_444" model="account.tax.code.template">
+      <field name="code">444</field>
+      <field name="name">INGRESOS POR REEMBOLSO COMO INTERMEDIARIO (INFORMATIVO) – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_481" model="account.tax.code.template">
+      <field name="code">481</field>
+      <field name="name">TOTAL TRANSFERENCIAS GRAVADAS 12% A CRÉDITO ESTE MES</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_483" model="account.tax.code.template">
+      <field name="code">483</field>
+      <field name="name">IMPUESTO A LIQUIDAR DEL MES ANTERIOR</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_509" model="account.tax.code.template">
+      <field name="code">509</field>
+      <field name="name">TOTAL ADQUISICIONES Y PAGOS – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_519" model="account.tax.code.template">
+      <field name="code">519</field>
+      <field name="name">TOTAL ADQUISICIONES Y PAGOS – VALOR NETO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_529" model="account.tax.code.template">
+      <field name="code">529</field>
+      <field name="name">TOTAL ADQUISICIONES Y PAGOS – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_531" model="account.tax.code.template">
+      <field name="code">531</field>
+      <field name="name">ADQUISICIONES NO OBJETO DE IVA</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_532" model="account.tax.code.template">
+      <field name="code">532</field>
+      <field name="name">ADQUISICIONES EXENTAS DEL PAGO DE IVA</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_535" model="account.tax.code.template">
+      <field name="code">535</field>
+      <field name="name">PAGOS NETOS POR REEMBOLSO COMO INTERMEDIARIO (INFORMATIVO)</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_541" model="account.tax.code.template">
+      <field name="code">541</field>
+      <field name="name">ADQUISICIONES NO OBJETO DE IVA - VALOR NETO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_542" model="account.tax.code.template">
+      <field name="code">542</field>
+      <field name="name">ADQUISICIONES EXENTAS DEL PAGO DE IVA - VALOR NETO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_543" model="account.tax.code.template">
+      <field name="code">543</field>
+      <field name="name">NOTAS DE CRÉDITO TARIFA 0% POR COMPENSAR PRÓXIMO MES (INFORMATIVO)</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_544" model="account.tax.code.template">
+      <field name="code">544</field>
+      <field name="name">NOTAS DE CRÉDITO TARIFA 12% POR COMPENSAR PRÓXIMO MES (INFORMATIVO) - VALOR NETO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_545" model="account.tax.code.template">
+      <field name="code">545</field>
+      <field name="name">PAGOS NETOS POR REEMBOLSO COMO INTERMEDIARIO (INFORMATIVO) - VALOR NETO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_554" model="account.tax.code.template">
+      <field name="code">554</field>
+      <field name="name">NOTAS DE CRÉDITO TARIFA 12% POR COMPENSAR PRÓXIMO MES (INFORMATIVO) - IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_555" model="account.tax.code.template">
+      <field name="code">555</field>
+      <field name="name">PAGOS NETOS POR REEMBOLSO COMO INTERMEDIARIO (INFORMATIVO) - IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_104"/>
+      <field name="sign">0</field>
+    </record>
+    <record id="F104_484" model="account.tax.code.template">
+      <field name="code">484</field>
+      <field name="name">IMPUESTO A LIQUIDAR EN ESTE MES</field>
+      <field name="parent_id" ref="F104_485"/>
+      <field name="sign">-1</field>
+    </record>
+    <record id="F104_480" model="account.tax.code.template">
+      <field name="code">480</field>
+      <field name="name">TOTAL TRANSFERENCIAS GRAVADAS 12% A CONTADO ESTE MES</field>
+      <field name="parent_id" ref="F104_484"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_500" model="account.tax.code.template">
+      <field name="code">500</field>
+      <field name="name">ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO) – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_509"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_501" model="account.tax.code.template">
+      <field name="code">501</field>
+      <field name="name">ADQUISICIONES LOCALES DE ACTIVOS FIJOS GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO) – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_509"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_502" model="account.tax.code.template">
+      <field name="code">502</field>
+      <field name="name">OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 12% (SIN DERECHO A CRÉDITO TRIBUTARIO) – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_509"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_503" model="account.tax.code.template">
+      <field name="code">503</field>
+      <field name="name">IMPORTACIONES DE SERVICIOS - VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_509"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_504" model="account.tax.code.template">
+      <field name="code">504</field>
+      <field name="name">IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12% – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_509"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_505" model="account.tax.code.template">
+      <field name="code">505</field>
+      <field name="name">IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 12% – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_509"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_506" model="account.tax.code.template">
+      <field name="code">506</field>
+      <field name="name">IMPORTACIONES DE BIENES (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0% – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_509"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_507" model="account.tax.code.template">
+      <field name="code">507</field>
+      <field name="name">ADQUISICIONES Y PAGOS (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0% – VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_509"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_508" model="account.tax.code.template">
+      <field name="code">508</field>
+      <field name="name">ADQUISICIONES REALIZADAS A CONTRIBUYENTES RISE - VALOR BRUTO</field>
+      <field name="parent_id" ref="F104_509"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_510" model="account.tax.code.template">
+      <field name="code">510</field>
+      <field name="name">ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO) – VALOR NETO</field>
+      <field name="parent_id" ref="F104_519"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_511" model="account.tax.code.template">
+      <field name="code">511</field>
+      <field name="name">ADQUISICIONES LOCALES DE ACTIVOS FIJOS GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO) – VALOR NETO</field>
+      <field name="parent_id" ref="F104_519"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_512" model="account.tax.code.template">
+      <field name="code">512</field>
+      <field name="name">OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 12% (SIN DERECHO A CRÉDITO TRIBUTARIO) – VALOR NETO</field>
+      <field name="parent_id" ref="F104_519"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_513" model="account.tax.code.template">
+      <field name="code">513</field>
+      <field name="name">IMPORTACIONES SERVICIOS GRAVADOS TARIFA 12% – VALOR NETO</field>
+      <field name="parent_id" ref="F104_519"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_514" model="account.tax.code.template">
+      <field name="code">514</field>
+      <field name="name">IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12% – VALOR NETO</field>
+      <field name="parent_id" ref="F104_519"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_515" model="account.tax.code.template">
+      <field name="code">515</field>
+      <field name="name">IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 12% – VALOR NETO</field>
+      <field name="parent_id" ref="F104_519"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_516" model="account.tax.code.template">
+      <field name="code">516</field>
+      <field name="name">IMPORTACIONES DE BIENES (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0% – VALOR NETO</field>
+      <field name="parent_id" ref="F104_519"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_517" model="account.tax.code.template">
+      <field name="code">517</field>
+      <field name="name">ADQUISICIONES Y PAGOS (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0% – VALOR NETO</field>
+      <field name="parent_id" ref="F104_519"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_518" model="account.tax.code.template">
+      <field name="code">518</field>
+      <field name="name">ADQUISICIONES REALIZADAS A CONTRIBUYENTES RISE</field>
+      <field name="parent_id" ref="F104_519"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_520" model="account.tax.code.template">
+      <field name="code">520</field>
+      <field name="name">ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO) – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_529"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_521" model="account.tax.code.template">
+      <field name="code">521</field>
+      <field name="name">ADQUISICIONES LOCALES DE ACTIVOS FIJOS GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO) – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_529"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_522" model="account.tax.code.template">
+      <field name="code">522</field>
+      <field name="name">OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 12% (SIN DERECHO A CRÉDITO TRIBUTARIO) – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_529"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_523" model="account.tax.code.template">
+      <field name="code">523</field>
+      <field name="name">IMPORTACIONES DE SERVICIOS GRAVADOS TARIFA 12%</field>
+      <field name="parent_id" ref="F104_529"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_524" model="account.tax.code.template">
+      <field name="code">524</field>
+      <field name="name">IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12%</field>
+      <field name="parent_id" ref="F104_529"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_525" model="account.tax.code.template">
+      <field name="code">525</field>
+      <field name="name">IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 12% – IMPUESTO GENERADO</field>
+      <field name="parent_id" ref="F104_529"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="F104_499" model="account.tax.code.template">
+      <field name="code">499</field>
+      <field name="name">TOTAL IMPUESTO A LIQUIDAR EN ESTE MES</field>
+      <field name="parent_id" ref="F104_601"/>
+      <field name="sign">1</field>
+    </record>
+    <record id="TAX_411" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">421</field>
+      <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 12%</field>
+      <field name="type_tax_use">sale</field>
+      <field name="type">percent</field>
+      <field name="amount">0.12</field>
+      <field name="account_collected_id" ref="20107010101"/>
+      <field name="account_paid_id" ref="20107010101"/>
+      <field name="base_code_id" ref="F104_411"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_421"/>
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_411"/>
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_421"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_412" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">422</field>
+      <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 12%</field>
+      <field name="type_tax_use">sale</field>
+      <field name="type">percent</field>
+      <field name="amount">0.12</field>
+      <field name="account_collected_id" ref="20107010102"/>
+      <field name="account_paid_id" ref="20107010102"/>
+      <field name="base_code_id" ref="F104_412"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_422"/>
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_412"/>
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_422"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_413" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      
+      <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO</field>
+      <field name="type_tax_use">sale</field>
+      <field name="type">percent</field>
+      <field name="amount">0</field>
+      <field name="account_collected_id" ref="201070101"/>
+      <field name="account_paid_id" ref="201070101"/>
+      <field name="base_code_id" ref="F104_413"/>
+      <field name="base_sign">1</field>
+      
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_413"/>
+      <field name="ref_base_sign">-1</field>
+      
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_414" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE NO DAN DERECHO A CREDITO TRIBUTARIO</field>
+      <field name="type_tax_use">sale</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0"></field>
+      <field name="account_collected_id" ref="201070101"/>
+      <field name="account_paid_id" ref="201070101"/>
+      <field name="base_code_id" ref="F104_414"/>
+      <field name="base_sign">1</field>
+      
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_414"/>
+      <field name="ref_base_sign">-1</field>
+      
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_415" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="name">VENTAS LOCALES (EXCLUYE ACTIVOS FIJOS) GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO</field>
+      <field name="type_tax_use">sale</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0"></field>
+      <field name="account_collected_id" ref="201070101"/>
+      <field name="account_paid_id" ref="201070101"/>
+      <field name="base_code_id" ref="F104_415"/>
+      <field name="base_sign">1</field>
+      
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_415"/>
+      <field name="ref_base_sign">-1</field>
+      
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_416" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="name">VENTAS DE ACTIVOS FIJOS GRAVADAS TARIFA 0% QUE DAN DERECHO A CREDITO TRIBUTARIO</field>
+      <field name="type_tax_use">sale</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0"></field>
+      <field name="account_collected_id" ref="201070101"/>
+      <field name="account_paid_id" ref="201070101"/>
+      <field name="base_code_id" ref="F104_416"/>
+      <field name="base_sign">1</field>
+      
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_416"/>
+      <field name="ref_base_sign">-1</field>
+      
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_417" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="name">VENTAS EXPORTACIONES DE BIENES</field>
+      <field name="type_tax_use">sale</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0"></field>
+      <field name="account_collected_id" ref="20107010103"/>
+      <field name="account_paid_id" ref="20107010103"/>
+      <field name="base_code_id" ref="F104_417"/>
+      <field name="base_sign">1</field>
+      
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_417"/>
+      <field name="ref_base_sign">-1</field>
+      
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_418" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="name">VENTAS EXPORTACIONES DE SERVICIOS</field>
+      <field name="type_tax_use">sale</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0"></field>
+      <field name="account_collected_id" ref="20107010104"/>
+      <field name="account_paid_id" ref="20107010104"/>
+      <field name="base_code_id" ref="F104_418"/>
+      <field name="base_sign">1</field>
+      
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_418"/>
+      <field name="ref_base_sign">-1</field>
+      
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_510" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">510</field>
+      <field name="name">ADQUISICIONES Y PAGOS (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO)</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0.12"></field>
+      <field name="account_collected_id" ref="101050101"/>
+      <field name="account_paid_id" ref="101050101"/>
+      <field name="base_code_id" ref="F104_510"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_520"/>
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_510"/>
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_520"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_511" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">511</field>
+      <field name="name">ADQUISICIONES LOCALES DE ACTIVOS FIJOS GRAVADOS TARIFA 12% (CON DERECHO A CRÉDITO TRIBUTARIO)</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0.12"></field>
+      <field name="account_collected_id" ref="101050102"/>
+      <field name="account_paid_id" ref="101050102"/>
+      <field name="base_code_id" ref="F104_511"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_521"/>
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_511"/>
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_521"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_512" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">512</field>
+      <field name="name">OTRAS ADQUISICIONES Y PAGOS GRAVADOS TARIFA 12% (SIN DERECHO A CRÉDITO TRIBUTARIO)</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0.12"></field>
+      <field name="account_collected_id" ref="101050103"/>
+      <field name="account_paid_id" ref="101050103"/>
+      <field name="base_code_id" ref="F104_512"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_522"/>
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_512"/>
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_522"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_513" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">513</field>
+      <field name="name">IMPORTACIONES DE SERVICIOS GRAVADOS TARIFA 12%</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0.12"></field>
+      <field name="account_collected_id" ref="101050107"/>
+      <field name="account_paid_id" ref="101050107"/>
+      <field name="base_code_id" ref="F104_513"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_523"/>
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_513"/>
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_523"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+
+    <record id="TAX_514" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">514</field>
+      <field name="name">IMPORTACIONES DE BIENES (EXCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 12%</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0.12"></field>
+      <field name="account_collected_id" ref="101050104"/>
+      <field name="account_paid_id" ref="101050104"/>
+      <field name="base_code_id" ref="F104_514"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_524"/>
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_514"/>
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_524"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_515" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">515</field>
+      <field name="name">IMPORTACIONES DE ACTIVOS FIJOS GRAVADOS TARIFA 12%</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0.12"></field>
+      <field name="account_collected_id" ref="101050105"/>
+      <field name="account_paid_id" ref="101050105"/>
+      <field name="base_code_id" ref="F104_515"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_525"/>
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_515"/>
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_525"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_516" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="name">IMPORTACIONES DE BIENES (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0%</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0"></field>
+      <field name="account_collected_id" ref="1010501"/>
+      <field name="account_paid_id" ref="1010501"/>
+      <field name="base_code_id" ref="F104_516"/>
+      <field name="base_sign">1</field>
+      
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_516"/>
+      <field name="ref_base_sign">-1</field>
+      
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_517" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="name">ADQUISICIONES Y PAGOS (INCLUYE ACTIVOS FIJOS) GRAVADOS TARIFA 0%</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0"></field>
+      <field name="account_collected_id" ref="1010501"/>
+      <field name="account_paid_id" ref="1010501"/>
+      <field name="base_code_id" ref="F104_517"/>
+      <field name="base_sign">1</field>
+      
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_517"/>
+      <field name="ref_base_sign">-1</field>
+      
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_518" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="name">ADQUISICIONES REALIZADAS A CONTRIBUYENTES RISE</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0"></field>
+      <field name="account_collected_id" ref="1010501"/>
+      <field name="account_paid_id" ref="1010501"/>
+      <field name="base_code_id" ref="F104_518"/>
+      <field name="base_sign">1</field>
+      
+      <field name="tax_sign">1</field>
+      <field name="ref_base_code_id" ref="F104_518"/>
+      <field name="ref_base_sign">-1</field>
+      
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      
+    </record>
+    <record id="TAX_721" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">721</field>
+      <field name="name">RETENCIÓN IVA DEL 30% - COMPRAS</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0.12"></field>
+      <field name="account_collected_id" ref="20107010301"/>
+      <field name="account_paid_id" ref="20107010301"/>
+      <field name="base_code_id"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_721"/>
+      <field name="tax_sign">1</field>
+      
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_721"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="1"/>
+      
+    </record>
+    <record id="TAX_723" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">723</field>
+      <field name="name">RETENCIÓN IVA DEL 70% - COMPRAS</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0.12"></field>
+      <field name="account_collected_id" ref="20107010302"/>
+      <field name="account_paid_id" ref="20107010302"/>
+      <field name="base_code_id"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_723"/>
+      <field name="tax_sign">1</field>
+      
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_723"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="1"/>
+      
+    </record>
+    <record id="TAX_725" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">725</field>
+      <field name="name">RETENCIÓN IVA DEL 100% - COMPRAS</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="0.12"></field>
+      <field name="account_collected_id" ref="20107010303"/>
+      <field name="account_paid_id" ref="20107010303"/>
+      <field name="base_code_id"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_725"/>
+      <field name="tax_sign">1</field>
+      
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_725"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="1"/>
+      
+    </record>
+    <record id="TAX_721_C" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">721</field>
+      <field name="name">RETENCIÓN IVA DEL 30% - COMPRAS(Hijo)</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="-0.3"></field>
+      <field name="account_collected_id" ref="20107010301"/>
+      <field name="account_paid_id" ref="20107010301"/>
+      <field name="base_code_id"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_721"/>
+      <field name="tax_sign">1</field>
+      
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_721"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      <field name="parent_id" ref="TAX_721"/>
+    </record>
+    <record id="TAX_723_C" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">723</field>
+      <field name="name">RETENCIÓN IVA DEL 70% - COMPRAS(Hijo)</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="-0.7"></field>
+      <field name="account_collected_id" ref="20107010302"/>
+      <field name="account_paid_id" ref="20107010302"/>
+      <field name="base_code_id"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_723"/>
+      <field name="tax_sign">1</field>
+      
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_723"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      <field name="parent_id" ref="TAX_723"/>
+    </record>
+    <record id="TAX_725_C" model="account.tax.template">
+	  
+	  <field name="chart_template_id" ref="ec_niif_minimal_chart_template"/>
+      <field name="description">725</field>
+      <field name="name">RETENCIÓN IVA DEL 100% - COMPRAS(Hijo)</field>
+      <field name="type_tax_use">purchase</field>
+      <field name="type">percent</field>
+      <field name="amount" eval="-1.0"></field>
+      <field name="account_collected_id" ref="20107010303"/>
+      <field name="account_paid_id" ref="20107010303"/>
+      <field name="base_code_id"/>
+      <field name="base_sign">1</field>
+      <field name="tax_code_id" ref="F104_725"/>
+      <field name="tax_sign">1</field>
+      <field name="ref_base_sign">-1</field>
+      <field name="ref_tax_code_id" ref="F104_725"/>
+      <field name="ref_tax_sign">-1</field>
+      <field name="type_ec">iva</field>
+      <field name="child_depend" eval="0"/>
+      <field name="parent_id" ref="TAX_725"/>
+    </record>
+  </data>
+</openerp>
